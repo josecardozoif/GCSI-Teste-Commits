@@ -20,6 +20,12 @@ button {
     background-color: #611616;
     border-color: #611616;
     color: #e0dede;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(170, 12, 38); /* Green */
+  color: #e0dede;
 }
 
 #card {
