@@ -2,7 +2,7 @@ body {
     margin: 0;
     height: 100hv;
 
-    background: #e0dede;
+    background: #1a1919;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -23,13 +23,14 @@ button {
     font-size: larger;
     font-family: "bricolage";
     background-color: #611616;
-    border-color: #611616;
+    border: solid 2px #611616;
     color: #e0dede;
     transition-duration: 0.4s;
 }
 
 button:hover {
-    background-color: rgb(170, 12, 38); /* Green */
+    background-color: rgb(170, 12, 38);
+    border: solid 2px rgb(170, 12, 38);
     color: #e0dede;
 }
 
