@@ -22,7 +22,7 @@ button {
     color: #e0dede;
 }
 
-.card {
+#card {
     background-color: rgb(231, 231, 231);
     width: 100%;
     height: auto;
