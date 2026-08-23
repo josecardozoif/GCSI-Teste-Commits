@@ -7,6 +7,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+@font-face {
+    font-family: "bricolage";
+    src: url("fonts/BricolageGrotesque_24pt_SemiCondensed-Regular.ttf");
+}
 
 img {
     width: 100%;
@@ -16,7 +20,8 @@ img {
 button {
     width: 100%;
     height: 50px;
-    font-size: large;
+    font-size: larger;
+    font-family: "bricolage";
     background-color: #611616;
     border-color: #611616;
     color: #e0dede;
@@ -24,8 +29,8 @@ button {
 }
 
 button:hover {
-  background-color: rgb(170, 12, 38); /* Green */
-  color: #e0dede;
+    background-color: rgb(170, 12, 38); /* Green */
+    color: #e0dede;
 }
 
 #card {
